@@ -1,0 +1,67 @@
+html,
+body,
+#fullpage,
+.section,
+.slide,
+.fp-tableCell
+{
+    height: 100%
+}
+
+@font-face {
+    font-family: SyneMono;
+    src: url(../fonts/SyneMono-Regular.ttf);
+}
+
+
+body {
+     margin: 30px;
+     background-color: thistle;
+     background-size: cover;
+     background-image: url("../img/4158388.jpg");
+
+ }
+
+
+.box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+    max-width: 1200px;
+    max-height: 680px;
+    padding: 50px;
+    background: #fff;
+    /*border: solid black;*/
+    border-width: 3px;
+    /*border-radius:86% 14% 81% 19% / 20% 87% 13% 80% ;*/
+    /*border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;*/
+    font-family:SyneMono;
+    /*background-color: rgba(161, 196, 194, 0.98);*/
+
+}
+#Covid-Background .box{
+    border-radius:86% 14% 81% 19% / 20% 87% 13% 80% ;
+    background-color:hsla(168,10%, 80%, 0.98);
+}
+#Travel-Policy .box{
+    border-radius:14% 86% 17% 83% / 82% 15% 85% 18% ;
+    background-color:hsla(11, 10%, 80%, 0.98);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    font-family:SyneMono;
+    font-weight: bold;
+    border: solid black;
+    border-width: 1px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+.vis{
+    padding:50px;
+    color: white;
+}
